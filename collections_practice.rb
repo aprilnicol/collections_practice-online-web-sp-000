@@ -13,7 +13,7 @@ arr
 end
 def reverse_array(arr)
   arr.reverse
-end 
+end
 def kesha_maker(arr)
   arr.each {|x| x[2] = "$"}
 end
