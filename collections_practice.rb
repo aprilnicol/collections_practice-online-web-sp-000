@@ -27,3 +27,4 @@ def add_s(arr)
   arr.map.with_index do |element, index|
     index != 1 ? element << "s" : element
   end
+end 
