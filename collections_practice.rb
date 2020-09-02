@@ -21,7 +21,7 @@ def find_a(arr)
   arr.select {|x| x.start_with?("a")}
 end
 def sum_array(arr)
-  arr.reduce(:*)
+  arr.reduce(:+)
 end
 def add_s(arr)
   arr.map.with_index do |element, index|
